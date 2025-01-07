@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Projects</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      .title {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 5cm; /* Space of 5 cm between each section */
+      }
+      .project {
+        box-sizing: border-box;
+      }
+      iframe {
+        width: 95%;
+        height: 1000px; /* Adjust height as needed */
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">Power BI Projects</h1>
+    <div class="container">
+      <div class="project">
+        <p>A Covid dashboard that visualizes Covid-related information.</p>
+        <iframe 
+          title="Covid Dashboard (1) - Copy - Copy (1)"
+          src="https://app.powerbi.com/view?r=eyJrIjoiYjFiMTc2ZjEtYjQ3Ny00M2Y5LWFhMDUtY2I2ZTkzZWI2ZmEzIiwidCI6IjBmZWQwM2EzLTQwMmQtNDYzMy1hOGNkLThiMzA4ODIyMjUzZSIsImMiOjEwfQ%3D%3D&pageName=ReportSection0e2f5ab26abb174e5bd0"
+          frameborder="0" allowFullScreen="true">
+        </iframe>
+      </div>
+      <div class="project">
+        <p>911 Emergency Calls in Montgomery County, PA</p>
+        <iframe 
+          title="911 Emergency Calls in Montgomery County, PA"
+          src="https://app.powerbi.com/view?r=eyJrIjoiNjE2NWQ5ODQtN2MyOS00Yjg2LTgzMzAtNGI3ODQ0YjU3MWY1IiwidCI6IjBmZWQwM2EzLTQwMmQtNDYzMy1hOGNkLThiMzA4ODIyMjUzZSIsImMiOjEwfQ%3D%3D&pageName=88955480b0b331746161"
+          frameborder="0" allowFullScreen="true">
+        </iframe>
+      </div>
+      <div class="project">
+        <p> St. Cloud State University Total Enrollment Dashboard</p>
+        <iframe 
+          title="SCSU Total Enrollment"
+          src="https://app.powerbi.com/view?r=eyJrIjoiNjliNTRjNDAtNjQxYS00OWM4LTkxNjMtYzViODA5MDJlNWJlIiwidCI6IjBmZWQwM2EzLTQwMmQtNDYzMy1hOGNkLThiMzA4ODIyMjUzZSIsImMiOjEwfQ%3D%3D&pageName=ReportSection"
+          frameborder="0" allowFullScreen="true">
+        </iframe>
+      </div>
+    </div>
+  </body>
+</html>
