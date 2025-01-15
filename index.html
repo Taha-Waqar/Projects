@@ -35,7 +35,7 @@
         transform: scale(1.1);
       }
       .main {
-        padding: 50px 10px;
+        padding: 20px 10px;
         margin: 0 auto;
       }
       .content {
@@ -61,12 +61,16 @@
       #dashboard2 {
         max-width: 1700px;
       }
+      #dashboard3 {
+        max-width: 1400px;
+      }
     </style>
   </head>
   <body>
     <div class="navigation">
       <a href="#" onclick="showPage('dashboard1')">COVID-19 Dashboard</a>
       <a href="#" onclick="showPage('dashboard2')">SCSU Total Enrollment</a>
+      <a href="#" onclick="showPage('dashboard3')">911 Emergency Calls</a>
     </div>
 
     <div class="main">
@@ -86,6 +90,16 @@
         <iframe 
           title="SCSU Total Enrollment"
           src="https://app.powerbi.com/view?r=eyJrIjoiNjliNTRjNDAtNjQxYS00OWM4LTkxNjMtYzViODA5MDJlNWJlIiwidCI6IjBmZWQwM2EzLTQwMmQtNDYzMy1hOGNkLThiMzA4ODIyMjUzZSIsImMiOjEwfQ%3D%3D&pageName=ReportSection"
+          allowFullScreen="true">
+        </iframe>
+      </div>
+
+      <!-- Content for Dashboard 3 -->
+      <div id="dashboard3" class="content">
+        <h1>911 Emergency Calls in Montgomery County, PA</h1>
+        <iframe 
+          title="911 Emergency Calls Montgomery, PA"
+          src="https://app.powerbi.com/view?r=eyJrIjoiOGZlMGFjMWYtNjExZi00YmRiLWIzYmUtM2Y4ZmJjZWE1MWM2IiwidCI6IjBmZWQwM2EzLTQwMmQtNDYzMy1hOGNkLThiMzA4ODIyMjUzZSIsImMiOjEwfQ%3D%3D&pageName=88955480b0b331746161"
           allowFullScreen="true">
         </iframe>
       </div>
